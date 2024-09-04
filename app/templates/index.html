@@ -4,6 +4,20 @@
 <div class="welcome">
     <h2>Welcome to DocBridge</h2>
     <p>Your bridge to expert medical consultation.</p>
-    <a href="{{ url_for('register') }}">Get Started</a>
+    
 </div>
+<div id="cont">
+    <div id="abt">
+        
+        <h2>Your Health, Our Priority: Expert Consultation at Your Fingertips</h2>
+        <p>Imagine having access to world-class medical expertise without leaving your home. With DocBridge, doctors are no longer bound by geographical limitations. Whether you're in a remote village or a bustling city, our platform connects you to top-tier medical professionals who are ready to guide you through your health journey, ensuring that quality healthcare is always within your reach.</p>
+
+    </div>
+    <div id="banner">
+        <img src="{{ url_for('static', filename='images/banner.png') }}" alt="Banner Image"/>
+
+    </div>
+    
+</div>
+<a href="{{ url_for('register') }}">Get Started>></a>
 {% endblock %}
