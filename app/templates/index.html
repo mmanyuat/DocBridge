@@ -17,7 +17,27 @@
         <img src="{{ url_for('static', filename='images/banner.png') }}" alt="Banner Image"/>
 
     </div>
-    
 </div>
-<a href="{{ url_for('register') }}">Get Started>></a>
+<div id="footer">
+    <a href="{{ url_for('register') }}">Get Started>></a>
+    <div class="left">
+        <h3>Team</h3>
+        <ul>
+        <li>
+            <strong>Mabuoc Manyuat</strong><br>
+            <a href="https://www.linkedin.com/in/mmanyuat/" target="_blank">LinkedIn</a> |
+            <a href="https://github.com/mmanyuat/DocBridge" target="_blank">GitHub</a> |
+            <a href="https://twitter.com" target="_blank">Twitter</a>
+        </li>
+        </ul>
+    </div> 
+    <div class="right">
+        <h3>Project Repository</h3>
+        <p>
+        You can check out the full codebase for DocBridge on GitHub <a href="https://github.com/mmanyuat/docbridge" target="_blank">here</a>.
+        </p>
+    </div>    
+               
+</div>
+
 {% endblock %}

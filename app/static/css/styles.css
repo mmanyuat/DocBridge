@@ -62,14 +62,17 @@ button:hover {
 .welcome {
   text-align: center;
   margin-top: 50px;
+
 }
 
 .welcome h2 {
   margin-bottom: 20px;
+  font-size: 20px;
 }
 
 .welcome p {
   margin-bottom: 30px;
+  font-size: 20px;
 }
 
 #cont {
@@ -106,4 +109,15 @@ button:hover {
   font-size: 1.5em;
   font-weight: bold;  
   color: #e74c3c; 
+}
+#footer{
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
+.left, .right{
+  width: 45%;
 }
