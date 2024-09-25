@@ -1,0 +1,17 @@
+<h2>Booked Appointments</h2>
+<table>
+    <tr>
+        <th>Patient</th>
+        <th>Doctor</th>
+        <th>Date</th>
+        <th>Status</th>
+    </tr>
+    {% for appointment in appointments %}
+    <tr>
+        <td>{{ appointment.patient.username }}</td>
+        <td>{{ appointment.doctor.username }}</td>
+        <td>{{ appointment.appointment_date.strftime('%Y-%m-%d %H:%M') }}</td>
+        <td>{{ appointment.status }}</td>
+    </tr>
+    {% endfor %}
+</table>
